@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>CreaStix market and sales analysis</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root { --ink:#14213d; --muted:#5b6475; --line:#e3e6ec; --bg:#f6f7f9; --card:#fff; --accent:#1f6feb; --good:#1a7f5a; --warn:#c77700; --bad:#c0392b; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--bg); }
+  header { background:var(--ink); color:#fff; padding:40px 20px 32px; }
+  header .wrap, main { max-width:1040px; margin:0 auto; }
+  header h1 { margin:0 0 8px; font-size:30px; line-height:1.2; }
+  header p { margin:0; color:#c9d1e3; }
+  main { padding:24px 20px 60px; }
+  h2 { font-size:23px; margin:44px 0 6px; padding-top:12px; border-top:2px solid var(--line); }
+  h3 { font-size:17px; margin:0 0 4px; }
+  p { margin:8px 0; }
+  .lead { font-size:19px; font-weight:600; }
+  .muted { color:var(--muted); font-size:14px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); margin:16px 0; }
+  .kpis { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); margin:18px 0; }
+  .card, .kpi { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  .kpi b { display:block; font-size:28px; line-height:1.1; }
+  .kpi span { color:var(--muted); font-size:14px; }
+  .chart { position:relative; height:280px; margin-top:8px; }
+  .chart.tall { height:340px; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin:12px 0; font-size:15px; }
+  th, td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { background:#eef1f6; font-size:13px; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); }
+  tr:last-child td { border-bottom:0; }
+  .tablewrap { overflow-x:auto; }
+  ul { padding-left:20px; margin:8px 0; }
+  li { margin:5px 0; }
+  .tag { display:inline-block; font-size:12px; font-weight:700; padding:2px 8px; border-radius:99px; color:#fff; white-space:nowrap; }
+  .t1 { background:var(--bad); } .t2 { background:var(--warn); } .t3 { background:var(--accent); } .t4 { background:var(--muted); }
+  .summary { background:var(--card); border:1px solid var(--line); border-left:5px solid var(--accent); border-radius:10px; padding:20px 22px; margin-top:-18px; }
+  .two { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
+  nav { margin:18px 0 0; font-size:14px; }
+  nav a { color:var(--accent); margin-right:14px; text-decoration:none; white-space:nowrap; }
+  footer { color:var(--muted); font-size:13px; margin-top:40px; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>CreaStix market and sales analysis</h1>
+  <p>TruLife Naturals · prepared 18 November 2026 · data through 17 November 2026</p>
+</div></header>
+<main>
+
+<section class="summary">
+  <h2 style="margin-top:0;border:0;padding:0">Executive summary</h2>
+  <p class="lead">CreaStix is selling poorly because almost no qualified buyer has seen it, and the few who do get little proof to trust an unknown brand and an unfamiliar format. The creatine market is strong and the website is not broken.</p>
+  <ul>
+    <li><b>The market is growing fast, but not for sticks.</b> US creatine sales grew about 72% in retail and 90% on Amazon. Shoppers search for gummies (74,000 a month), not sticks (260) or "direct to mouth" (0).</li>
+    <li><b>The site has sold 12 pouches to 9 customers in 11 weeks.</b> 8 of those 12 orders came through three or four affiliate creators. No stranger has found CreaStix through search and bought it.</li>
+    <li><b>Traffic is tiny and mostly junk.</b> About 46% of 1,808 sessions are invalid or suspicious. Only about 177 real, non-affiliate visitors saw a CreaStix page in 87 days.</li>
+    <li><b>Price is a problem on Amazon.</b> $31.99 with no discount sits next to stick packs at $19 to $25, and the ads were promoting the flavor with zero ratings. On the site, 9 of 12 orders used a discount.</li>
+    <li><b>One $30 pouch cannot pay for ads.</b> Buying a supplement customer on Meta costs $46 to $80 in published benchmarks.</li>
+    <li><b>The plan is a sequence:</b> stop wasted spend, earn proof (reviews, lab certificate), fix the offer and price (discount, trial pack, bundle), then buy attention through creators and samples. Paid ads come last.</li>
+  </ul>
+  <div class="kpis">
+    <div class="kpi"><b>12</b><span>CreaStix orders on the site, 1 Sep to 17 Nov</span></div>
+    <div class="kpi"><b>$336</b><span>CreaStix site revenue, including tax</span></div>
+    <div class="kpi"><b>177</b><span>real non-affiliate visitors to a CreaStix page in 87 days</span></div>
+    <div class="kpi"><b>46%</b><span>of site sessions invalid or suspicious</span></div>
+    <div class="kpi"><b>8 of 12</b><span>orders traced to affiliate creators</span></div>
+    <div class="kpi"><b>0</b><span>Amazon ratings on the flavor the ads promoted</span></div>
+  </div>
+  <nav>
+    <a href="#market">Market</a><a href="#price">Price</a><a href="#site">Website</a><a href="#orders">Orders</a><a href="#amazon">Amazon</a><a href="#plan">Action plan</a><a href="#limits">Limits</a>
+  </nav>
+</section>
+
+<h2 id="market">1. The market: booming, but shoppers want gummies</h2>
+<p>Creatine is one of the fastest-growing supplements in the US. Growth is coming from women and older adults, not gym regulars. The stick format has almost no search demand of its own, so CreaStix has to borrow demand from another format.</p>
+<div class="grid">
+  <div class="card">
+    <h3>Monthly US Google searches</h3>
+    <p class="muted">Google Keyword Planner, November 2026. Log scale. "Direct to mouth creatine" returns 0.</p>
+    <div class="chart tall"><canvas id="cSearch"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Year-over-year sales growth</h3>
+    <p class="muted">Retail: SPINS, 52 weeks to 30 Nov 2025. Amazon: SmartScout, 12 months to Aug 2026 ($721M).</p>
+    <div class="chart tall"><canvas id="cGrowth"></canvas></div>
+  </div>
+</div>
+<ul>
+  <li><b>Who is new to creatine:</b> women were 30% of GNC creatine purchases, up from 18% in 2020. In one 2026 survey, 82.5% of people who never used creatine said they were interested.</li>
+  <li><b>Direct competitor:</b> one confirmed US pour-in-mouth rival, EHP Labs Creatine Fizz Stix, at $1.87 a stick. Its Amazon listing shows 26 ratings and "400+ bought in past month".</li>
+  <li><b>Big brands are entering sticks:</b> Optimum Nutrition, AG1, Orgain and Cellucor all launched creatine sticks in 2026, though theirs mix into water.</li>
+  <li><b>Gummy weakness:</b> independent tests found many creatine gummies contain far less creatine than labeled. A stick with a published lab result can use that.</li>
+</ul>
+
+<h2 id="price">2. Price and positioning: cheap against gummies, expensive against tubs</h2>
+<p>The current pitch, "no water, no scoop", speaks to people who already use tubs. For them CreaStix costs two to seven times as much per dose. Against gummies it is cheaper and delivers a full 5 g.</p>
+<div class="card">
+  <h3>Price per 5 g of creatine, by format</h3>
+  <p class="muted">Observed and published prices, November 2026. Bars show the low-to-high range for each format.</p>
+  <div class="chart tall"><canvas id="cPrice"></canvas></div>
+</div>
+<div class="grid">
+  <div class="card">
+    <h3>Why one pouch cannot fund ads</h3>
+    <p class="muted">Published Meta cost-per-purchase benchmarks for supplements against CreaStix's order value.</p>
+    <div class="chart"><canvas id="cCac"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>What this means</h3>
+    <ul>
+      <li><b>Target the gummy buyer:</b> lead with taste, then the verified full 5 g dose, then the price against gummies.</li>
+      <li><b>Raise the first order:</b> a $59 to $79 bundle and a low-price three-flavor trial pack. Every CreaStix order so far is a single pouch.</li>
+      <li><b>Soften "no water":</b> it has no search demand and invites the dry-scoop safety objection. Say "no mixing" and allow a sip of water.</li>
+      <li><b>Proof is missing:</b> "third-party tested" has no named lab or certificate, and site reviews are typed-in text with no source.</li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="site">3. The website: fine at converting, starved of real visitors</h2>
+<p>Figures are from Google Analytics for 23 August to 17 November 2026 (87 days). The filtered traffic converts at about 2%, which is a normal rate for a health store. There are simply too few real visitors.</p>
+<div class="grid">
+  <div class="card">
+    <h3>Quality of 1,808 recorded sessions</h3>
+    <p class="muted">"Suspicious" is a judgment based on near-zero engagement, not proof of bots.</p>
+    <div class="chart"><canvas id="cQuality"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Sessions by source, last 28 days</h3>
+    <p class="muted">21 Oct to 17 Nov 2026. Search and ChatGPT visitors engage; direct and affiliate mostly do not.</p>
+    <div class="chart"><canvas id="cSource"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Site funnel, 18 Sep to 17 Nov</h3>
+    <p class="muted">Users who saw the homepage, landing page or product page, then added to cart, then bought.</p>
+    <div class="chart"><canvas id="cFunnel"></canvas></div>
+  </div>
+</div>
+<ul>
+  <li><b>Affiliate links:</b> 574 sessions, 32% of all traffic, averaging 2.4 seconds each. The largest single affiliate sent 211 sessions and no orders.</li>
+  <li><b>Unexplained burst:</b> 209 iPhone sessions on 4 to 8 November with almost no engagement and no known source.</li>
+  <li><b>Page problems verified:</b> subscription is preselected on the product page; the 10% offer is a one-time 10-minute countdown; price and buy button sit below the first screen on mobile; no Shop Pay or Apple Pay button before checkout; no email capture offer.</li>
+  <li><b>What works:</b> pages load fast (about 2.0 seconds on a throttled phone) and tracking records purchases correctly.</li>
+</ul>
+
+<h2 id="orders">4. Who actually bought: 12 orders, mostly through creators</h2>
+<p>Figures are from Shopify order records, 1 September to 17 November 2026. Google Analytics counted 9 of these; it missed two subscription renewals and one Shop app order.</p>
+<div class="grid">
+  <div class="card"><h3>Where the 12 orders came from</h3><div class="chart"><canvas id="cOrderSrc"></canvas></div></div>
+  <div class="card"><h3>Price paid</h3><div class="chart"><canvas id="cPaid"></canvas></div></div>
+  <div class="card"><h3>Flavor</h3><div class="chart"><canvas id="cFlavor"></canvas></div></div>
+  <div class="card"><h3>Orders by month</h3><p class="muted">November is a partial month (to the 17th).</p><div class="chart"><canvas id="cMonth"></canvas></div></div>
+</div>
+<ul>
+  <li><b>Creators are the only working channel:</b> 44 creator discount codes were issued and 3 have ever been used. One creator's code brought 3 CreaStix orders plus an order for other products.</li>
+  <li><b>No cold search buyers:</b> the brand's other products do sell to strangers from search (8 of their 10 paid orders, at full price). CreaStix does not yet.</li>
+  <li><b>Narrow geography:</b> 9 of 12 orders shipped to Utah and Montana.</li>
+  <li><b>One repeat signal:</b> a subscriber is on a third monthly shipment. No refunds.</li>
+  <li><b>Discounts:</b> 9 of 12 orders were discounted; the average paid was about $28. The countdown offer code has been used once in seven weeks.</li>
+</ul>
+
+<h2 id="amazon">5. Amazon: expensive clicks landing on the weakest flavor</h2>
+<p>Observed on the live listing on 18 November 2026. The actual ad spend figures were not available, so the ad arithmetic uses published benchmarks.</p>
+<div class="grid">
+  <div class="card">
+    <h3>Ratings by flavor</h3>
+    <p class="muted">Flavors no longer share reviews on Amazon. Ads were mostly showing Strawberry Lemonade.</p>
+    <div class="chart"><canvas id="cRatings"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Price per serving against stick competitors</h3>
+    <p class="muted">Amazon search results for creatine stick packs.</p>
+    <div class="chart"><canvas id="cAmzPrice"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Ad cost as a share of sales</h3>
+    <p class="muted">At a $2.27 click and a $31.99 sale, by conversion rate. Break-even is roughly 30 to 55%, depending on product cost.</p>
+    <div class="chart"><canvas id="cAcos"></canvas></div>
+  </div>
+</div>
+<ul>
+  <li><b>No visible deal:</b> no coupon or strike-through price, while stick competitors show 13 to 20% discounts.</li>
+  <li><b>Listing gaps:</b> no pack count in any title, two flavors with 4 images against 8 on the third, no brand video, and no testing claim.</li>
+  <li><b>The stick niche is open:</b> the median page-one stick listing has about 270 ratings, against 20,000 to 85,000 for tubs on the main creatine terms.</li>
+  <li><b>A benchmark to copy:</b> one stick brand launched in late 2025 sells 3,000+ a month with only 190 ratings, at $24.99 with a strike-through price.</li>
+  <li><b>Unused asset:</b> the brand's Trace Mineral Complex has 156 ratings and 500+ monthly sales, and could anchor a bundle.</li>
+</ul>
+
+<h2 id="plan">6. Action plan, in order</h2>
+<p>The order matters. Reviews and proof raise the return on every later dollar, so traffic comes after them.</p>
+<div class="tablewrap"><table>
+<tr><th>When</th><th>Action</th><th>Why</th><th>Cost</th></tr>
+<tr><td><span class="tag t1">This week</span></td><td>Point all Amazon ads at Blue Razz, pause Strawberry Lemonade ads and broad creatine terms</td><td>Ads were on the zero-rating flavor; Blue Razz is 8 of 12 site orders</td><td>Free, cuts spend</td></tr>
+<tr><td><span class="tag t1">This week</span></td><td>Enroll Strawberry Lemonade in Amazon Vine</td><td>The first few reviews give the largest lift</td><td>Up to $200 plus units</td></tr>
+<tr><td><span class="tag t1">This week</span></td><td>Lock down the affiliate program: stop automatic approval, remove junk partners, reward the few creators who sell</td><td>574 sessions at 2.4 seconds; 3 of 44 codes ever used</td><td>Free</td></tr>
+<tr><td><span class="tag t1">This week</span></td><td>Make one-time purchase the default; replace the countdown with a standing first-order offer; put stars and the guarantee by the buy button</td><td>Verified page behavior</td><td>Theme edits</td></tr>
+<tr><td><span class="tag t1">This week</span></td><td>Pull the Amazon Ads search-term and placement reports</td><td>Ad spend by keyword and flavor is unknown</td><td>Free</td></tr>
+<tr><td><span class="tag t2">Weeks 2 to 4</span></td><td>Publish a per-lot lab certificate from a named lab, on the site and in Amazon images</td><td>Testing is a top purchase influence; no competitor stick leads with it</td><td>Low</td></tr>
+<tr><td><span class="tag t2">Weeks 2 to 4</span></td><td>Install a real review app and collect reviews for all three flavors</td><td>Current site reviews cannot be verified</td><td>Low</td></tr>
+<tr><td><span class="tag t2">Weeks 2 to 4</span></td><td>Repair the Amazon listing: count and flavor in titles, full images on every flavor, a pour video, and a coupon bringing the price to about $25 to $27</td><td>Competing sticks are $19 to $25 with visible discounts</td><td>Low; margin to confirm</td></tr>
+<tr><td><span class="tag t2">Weeks 2 to 4</span></td><td>Add a three-flavor trial pack and a $59 to $79 bundle, email capture and express checkout</td><td>Every order so far is one pouch</td><td>Packaging and theme work</td></tr>
+<tr><td><span class="tag t2">Weeks 2 to 4</span></td><td>Rewrite the pitch for gummy buyers: taste, verified 5 g, price against gummies</td><td>74,000 monthly gummy searches against 260 for sticks</td><td>Copy</td></tr>
+<tr><td><span class="tag t2">Before 1 Jan</span></td><td>Add age verification or shipping rules for New York and California</td><td>State laws restrict creatine sales to minors</td><td>App fee, legal review</td></tr>
+<tr><td><span class="tag t3">Weeks 4 to 12</span></td><td>Gift product to 30 to 50 small creators in women's strength and wellness; post pour videos; hand out single sticks</td><td>Creators already produce 8 of 12 orders</td><td>Hundreds of dollars</td></tr>
+<tr><td><span class="tag t3">Weeks 4 to 12</span></td><td>Send creator traffic to Amazon with attribution tags; bundle with Trace Mineral Complex; apply for TikTok Shop</td><td>Amazon credits about 10% of such sales back as a fee bonus</td><td>Commission only</td></tr>
+<tr><td><span class="tag t4">After proof</span></td><td>Small paid social tests to the bundle, using creator clips that already perform</td><td>Benchmarks need a first order near $60 to $70</td><td>Scales with results</td></tr>
+</table></div>
+
+<h2 id="limits">7. Limits of this analysis</h2>
+<ul>
+  <li><b>Small numbers:</b> 12 orders are too few to say which page fix matters most, or to separate price resistance from lack of trust.</li>
+  <li><b>Missing data:</b> Amazon ad spend, clicks and orders were not available, and the product's landed cost is unknown, so break-even figures are illustrative.</li>
+  <li><b>Benchmarks:</b> most channel cost and conversion benchmarks are published by vendors with a commercial interest.</li>
+  <li><b>Snapshots:</b> Amazon prices, ratings and ad placements were observed once, on 18 November 2026.</li>
+</ul>
+
+<footer>Sources: Shopify order records, Google Analytics 4, Google Keyword Planner, live Amazon listings, SPINS and SmartScout figures as cited in trade press, and published benchmark reports. Creator names and codes are omitted from this page.</footer>
+</main>
+
+<script>
+Chart.defaults.font.family = 'system-ui,-apple-system,"Segoe UI",Roboto,sans-serif';
+Chart.defaults.font.size = 13;
+Chart.defaults.color = '#5b6475';
+Chart.defaults.maintainAspectRatio = false;
+const C = { ink:'#14213d', blue:'#1f6feb', green:'#1a7f5a', amber:'#e09b1a', red:'#c0392b', grey:'#aab2c0', teal:'#2a9d8f', purple:'#7b5ea7' };
+const noLegend = { plugins:{ legend:{ display:false } } };
+const $ = id => document.getElementById(id);
+
+new Chart($('cSearch'), { type:'bar',
+  data:{ labels:['creatine','creatine monohydrate','creatine gummies','creatine for women','flavored creatine','dry scoop creatine','creatine packets','creatine sticks','creatine stick packs'],
+    datasets:[{ data:[823000,301000,74000,60500,5400,2900,1300,260,110],
+      backgroundColor:[C.grey,C.grey,C.blue,C.blue,C.grey,C.grey,C.grey,C.red,C.red] }] },
+  options:{ indexAxis:'y', ...noLegend, scales:{ x:{ type:'logarithmic', ticks:{ callback:v => [100,1000,10000,100000,1000000].includes(v) ? v.toLocaleString() : '' } } } } });
+
+new Chart($('cGrowth'), { type:'bar',
+  data:{ labels:['US retail (SPINS)','Amazon US (SmartScout)'], datasets:[{ data:[72,90], backgroundColor:[C.teal,C.blue] }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true, ticks:{ callback:v => v+'%' } } },
+    plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label:c => '+'+c.parsed.y+'%' } } } } });
+
+new Chart($('cPrice'), { type:'bar',
+  data:{ labels:['Bulk tubs','Value stick packs','Capsules','CreaStix (site, $29.99)','CreaStix (Amazon, $31.99)','Major-brand sticks','Gummies','EHP direct-to-mouth'],
+    datasets:[{ data:[[0.15,0.49],[0.48,0.90],[0.50,1.00],[1.02,1.07],[1.09,1.14],[1.04,1.67],[1.00,2.86],[1.82,1.87]],
+      backgroundColor:[C.grey,C.grey,C.grey,C.red,C.red,C.grey,C.blue,C.amber] }] },
+  options:{ indexAxis:'y', ...noLegend, scales:{ x:{ beginAtZero:true, ticks:{ callback:v => '$'+v.toFixed(2) } } },
+    plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label:c => { const [a,b]=c.raw; return (b-a<0.06) ? '$'+b.toFixed(2) : '$'+a.toFixed(2)+' to $'+b.toFixed(2); } } } } } });
+
+new Chart($('cCac'), { type:'bar',
+  data:{ labels:['CreaStix one-time order','Meta cost per purchase (low)','Meta cost per purchase (high)','Benchmark first order'],
+    datasets:[{ data:[29.99,45.62,80.50,68.68], backgroundColor:[C.red,C.amber,C.amber,C.green] }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true, ticks:{ callback:v => '$'+v } } } } });
+
+new Chart($('cQuality'), { type:'doughnut',
+  data:{ labels:['Known invalid (216)','Suspicious (620)','Remaining (972)'], datasets:[{ data:[216,620,972], backgroundColor:[C.red,C.amber,C.green] }] },
+  options:{ plugins:{ legend:{ position:'bottom' } } } });
+
+new Chart($('cSource'), { type:'bar',
+  data:{ labels:['Direct','Affiliate','Google organic','ChatGPT','Other'],
+    datasets:[{ label:'Engaged sessions', data:[47,6,33,5,10], backgroundColor:C.green },
+              { label:'Not engaged', data:[271,92,34,4,14], backgroundColor:C.grey }] },
+  options:{ scales:{ x:{ stacked:true }, y:{ stacked:true, beginAtZero:true } }, plugins:{ legend:{ position:'bottom' } } } });
+
+new Chart($('cFunnel'), { type:'bar',
+  data:{ labels:['Viewed a key page','Added to cart','Purchased'], datasets:[{ data:[837,32,6], backgroundColor:[C.blue,C.amber,C.green] }] },
+  options:{ indexAxis:'y', ...noLegend, scales:{ x:{ type:'logarithmic', min:1, ticks:{ callback:v => [1,10,100,1000].includes(v) ? v : '' } } } } });
+
+new Chart($('cOrderSrc'), { type:'doughnut',
+  data:{ labels:['Affiliate creators (8)','Search to homepage (2)','Shop app (1)','Direct, countdown code (1)'], datasets:[{ data:[8,2,1,1], backgroundColor:[C.blue,C.teal,C.purple,C.grey] }] },
+  options:{ plugins:{ legend:{ position:'bottom' } } } });
+
+new Chart($('cPaid'), { type:'doughnut',
+  data:{ labels:['10% code (6)','Subscription, 15% off (3)','Full price (3)'], datasets:[{ data:[6,3,3], backgroundColor:[C.amber,C.teal,C.green] }] },
+  options:{ plugins:{ legend:{ position:'bottom' } } } });
+
+new Chart($('cFlavor'), { type:'bar',
+  data:{ labels:['Blue Razz','Strawberry Lemonade','Orange Cream'], datasets:[{ data:[8,2,2], backgroundColor:['#3b82f6','#ef6f8e','#f59e0b'] }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true, ticks:{ stepSize:2 } } } } });
+
+new Chart($('cMonth'), { type:'bar',
+  data:{ labels:['September','October','November (to 17th)'], datasets:[{ data:[4,6,2], backgroundColor:C.blue }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true, ticks:{ stepSize:2 } } } } });
+
+new Chart($('cRatings'), { type:'bar',
+  data:{ labels:['Orange Cream','Blue Razz','Strawberry Lemonade'], datasets:[{ data:[14,13,0], backgroundColor:['#f59e0b','#3b82f6','#ef6f8e'] }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true } } } });
+
+new Chart($('cAmzPrice'), { type:'bar',
+  data:{ labels:['Typical stick packs (low)','Typical stick packs (high)','CreaStix','EHP direct-to-mouth'], datasets:[{ data:[0.67,0.83,1.14,1.87], backgroundColor:[C.grey,C.grey,C.red,C.amber] }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true, ticks:{ callback:v => '$'+v.toFixed(2) } } } } });
+
+new Chart($('cAcos'), { type:'bar',
+  data:{ labels:['5% convert','12% convert','17.7% convert'], datasets:[{ data:[142,59,40], backgroundColor:[C.red,C.amber,C.green] }] },
+  options:{ ...noLegend, scales:{ y:{ beginAtZero:true, ticks:{ callback:v => v+'%' } } } } });
+</script>
+</body>
+</html>
